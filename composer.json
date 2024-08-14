@@ -1,0 +1,23 @@
+{
+    "name": "dtrunk90/myshopwareplugin",
+    "description": "Shopware Plugin",
+    "version": "1.0.0-dev",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "require": {
+        "jms/serializer-bundle": "~5.4.0",
+        "shopware/core": "~6.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyPlugin\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "MyPlugin\\MyPlugin",
+        "label": {
+            "en-GB": "MyPlugin"
+        }
+    }
+}
+
